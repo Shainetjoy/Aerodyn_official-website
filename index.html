@@ -3,32 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Aerodyne Engineering Service - Engineering Precision. Elevating Possibilities. Professional engineering solutions in Civil and Mechanical Engineering.">
-    <title>Aerodyne Engineering Service | Professional Engineering Solutions</title>
-    
-    <!-- Google Fonts -->
+    <title>AERODYNE ENGINEERING SERVICE - Professional Engineering Solutions</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Montserrat:wght@600;700&family=Roboto:wght@300;400;500&family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome for Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header / Hero Section -->
-    <header class="hero-section" id="home">
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <!-- Navigation -->
         <nav class="navbar">
             <div class="container">
                 <div class="nav-content">
                     <div class="logo-container">
-                        <img src="static/Aerodyn-Logo.png" alt="Aerodyne Engineering Service Logo" class="logo">
+                        <img src="static/Aerodyn-Logo.png" alt="AERODYNE Logo" class="logo">
                     </div>
                     <ul class="nav-menu" id="navMenu">
                         <li><a href="#home" class="nav-link">Home</a></li>
                         <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#vision" class="nav-link">Vision & Mission</a></li>
+                        <li><a href="#domains" class="nav-link">Domains</a></li>
                         <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="#clients" class="nav-link">Clients</a></li>
                         <li><a href="#contact" class="nav-link">Contact</a></li>
                     </ul>
                     <div class="hamburger" id="hamburger">
@@ -39,65 +37,69 @@
                 </div>
             </div>
         </nav>
-        
+
+        <!-- Hero Content -->
         <div class="hero-content">
             <div class="container">
-                <h1 class="company-name">Aerodyne Engineering Service</h1>
-                <p class="tagline">Engineering Precision. Elevating Possibilities.</p>
-                <a href="#about" class="cta-button">Discover Our Expertise</a>
+                <h1 class="company-name">AERODYNE ENGINEERING SERVICE</h1>
+                <p class="tagline">Excellence in Engineering Solutions</p>
+                <a href="#about" class="cta-button">Discover More</a>
             </div>
         </div>
-    </header>
+    </section>
 
-    <!-- About Us Section -->
+    <!-- About Section -->
     <section class="about-section" id="about">
         <div class="container">
             <h2 class="section-title">About Us</h2>
             <div class="about-content">
                 <p class="about-text">
-                    Aerodyne Engineering Service is a professional engineering consultancy firm dedicated to delivering 
-                    comprehensive engineering solutions across civil and mechanical engineering domains. We combine technical 
-                    expertise with practical industry knowledge to support projects from conception to completion. Our team 
-                    of experienced engineers is committed to providing high-quality, technically sound solutions that meet 
-                    the highest standards of safety, efficiency, and sustainability.
+                    AERODYNE ENGINEERING SERVICE is a leading engineering consultancy firm dedicated to delivering 
+                    innovative and sustainable engineering solutions. With years of expertise across multiple domains, 
+                    we provide comprehensive services that meet the highest standards of quality and excellence. 
+                    Our team of experienced engineers and professionals is committed to transforming your vision 
+                    into reality through cutting-edge technology and proven methodologies.
                 </p>
             </div>
         </div>
     </section>
 
     <!-- Vision & Mission Section -->
-    <section class="vision-mission-section">
+    <section class="vision-mission-section" id="vision">
         <div class="container">
+            <h2 class="section-title">Vision & Mission</h2>
             <div class="vm-grid">
                 <div class="vm-card">
-                    <img src="static/civ.jpg" alt="Civil engineering vision illustration" class="vm-image">
+                    <div class="vm-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
                     <h3 class="vm-title">Our Vision</h3>
                     <p class="vm-text">
-                        To be a leading engineering consultancy firm recognized for technical excellence, innovation, and 
-                        commitment to sustainable engineering practices. We envision a future where engineering solutions 
-                        not only meet immediate project needs but also contribute to long-term environmental and societal 
-                        well-being.
+                        To be a globally recognized leader in engineering services, known for innovation, 
+                        sustainability, and excellence. We envision a future where engineering solutions 
+                        drive positive change and create lasting value for our clients and communities.
                     </p>
                 </div>
                 <div class="vm-card">
-                    <img src="static/mech.jpg" alt="Mechanical engineering mission illustration" class="vm-image">
+                    <div class="vm-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
                     <h3 class="vm-title">Our Mission</h3>
                     <p class="vm-text">
-                        To deliver precise, reliable, and cost-effective engineering solutions that exceed client expectations. 
-                        We are dedicated to maintaining the highest standards of quality, safety, and professional ethics while 
-                        fostering innovation and continuous improvement in all our engineering endeavors.
+                        To deliver exceptional engineering services that exceed client expectations through 
+                        technical expertise, innovative thinking, and unwavering commitment to quality. 
+                        We strive to build lasting partnerships and contribute to sustainable development.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Core Engineering Domains Section -->
-    <section class="domains-section" id="services">
+    <!-- Domains Section -->
+    <section class="domains-section" id="domains">
         <div class="container">
-            <h2 class="section-title">Core Engineering Domains</h2>
+            <h2 class="section-title">Our Domains</h2>
             <div class="domains-grid">
-                <!-- Civil Engineering -->
                 <div class="domain-card">
                     <div class="domain-header">
                         <div class="domain-icon">
@@ -106,15 +108,13 @@
                         <h3 class="domain-title">Civil Engineering</h3>
                     </div>
                     <ul class="domain-list">
-                        <li><i class="fas fa-check-circle"></i> Structural design & analysis</li>
-                        <li><i class="fas fa-check-circle"></i> Building planning</li>
-                        <li><i class="fas fa-check-circle"></i> Quantity surveying & estimation</li>
-                        <li><i class="fas fa-check-circle"></i> Construction management & site supervision</li>
-                        <li><i class="fas fa-check-circle"></i> Material testing & quality control</li>
+                        <li><i class="fas fa-check"></i> Structural Design & Analysis</li>
+                        <li><i class="fas fa-check"></i> Infrastructure Development</li>
+                        <li><i class="fas fa-check"></i> Construction Management</li>
+                        <li><i class="fas fa-check"></i> Urban Planning</li>
+                        <li><i class="fas fa-check"></i> Project Consulting</li>
                     </ul>
                 </div>
-
-                <!-- Mechanical Engineering -->
                 <div class="domain-card">
                     <div class="domain-header">
                         <div class="domain-icon">
@@ -123,136 +123,140 @@
                         <h3 class="domain-title">Mechanical Engineering</h3>
                     </div>
                     <ul class="domain-list">
-                        <li><i class="fas fa-check-circle"></i> Mechanical system design</li>
-                        <li><i class="fas fa-check-circle"></i> Manufacturing & fabrication support</li>
-                        <li><i class="fas fa-check-circle"></i> CAD/CAM product development</li>
-                        <li><i class="fas fa-check-circle"></i> Maintenance engineering</li>
-                        <li><i class="fas fa-check-circle"></i> Thermal & fluid systems</li>
+                        <li><i class="fas fa-check"></i> Machine Design & Development</li>
+                        <li><i class="fas fa-check"></i> Manufacturing Solutions</li>
+                        <li><i class="fas fa-check"></i> HVAC Systems</li>
+                        <li><i class="fas fa-check"></i> Industrial Automation</li>
+                        <li><i class="fas fa-check"></i> Quality Assurance</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Engineering Services Section -->
-    <section class="services-section">
+    <!-- Services Section -->
+    <section class="services-section" id="services">
         <div class="container">
-            <h2 class="section-title">Engineering Services</h2>
+            <h2 class="section-title">Our Services</h2>
             <div class="services-grid">
                 <div class="service-item">
-                    <i class="fas fa-project-diagram"></i>
-                    <h4>End-to-End Engineering Development</h4>
-                    <p>Comprehensive support from project initiation to completion</p>
+                    <i class="fas fa-drafting-compass"></i>
+                    <h4>Design & Planning</h4>
+                    <p>Comprehensive design solutions tailored to your specific requirements and industry standards.</p>
                 </div>
                 <div class="service-item">
-                    <i class="fas fa-calendar-alt"></i>
-                    <h4>Project Planning</h4>
-                    <p>Strategic planning and scheduling for optimal project execution</p>
+                    <i class="fas fa-clipboard-check"></i>
+                    <h4>Project Management</h4>
+                    <p>End-to-end project management ensuring timely delivery and optimal resource utilization.</p>
                 </div>
                 <div class="service-item">
-                    <i class="fas fa-file-alt"></i>
-                    <h4>Technical Documentation</h4>
-                    <p>Detailed technical specifications and documentation</p>
+                    <i class="fas fa-microscope"></i>
+                    <h4>Quality Control</h4>
+                    <p>Rigorous quality assurance and testing to ensure the highest standards of excellence.</p>
                 </div>
                 <div class="service-item">
-                    <i class="fas fa-check-double"></i>
-                    <h4>Design Validation</h4>
-                    <p>Rigorous testing and validation of engineering designs</p>
+                    <i class="fas fa-chart-line"></i>
+                    <h4>Consulting Services</h4>
+                    <p>Expert consulting to help you make informed decisions and optimize your operations.</p>
                 </div>
                 <div class="service-item">
                     <i class="fas fa-tools"></i>
-                    <h4>Execution & Consultancy</h4>
-                    <p>On-site support and expert engineering consultancy</p>
+                    <h4>Technical Support</h4>
+                    <p>Ongoing technical support and maintenance services for all your engineering needs.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-lightbulb"></i>
+                    <h4>Innovation Solutions</h4>
+                    <p>Cutting-edge solutions leveraging the latest technologies and methodologies.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Working Approach Section -->
-    <section class="approach-section">
+    <!-- Approach Section -->
+    <section class="approach-section" id="approach">
         <div class="container">
-            <h2 class="section-title">Our Working Approach</h2>
+            <h2 class="section-title">Our Approach</h2>
             <div class="approach-content">
                 <p class="approach-text">
-                    At Aerodyne Engineering Service, we emphasize practical engineering solutions grounded in real-world 
-                    application. Our approach prioritizes <strong>safety</strong> as the foundation of every project, 
-                    ensuring all designs and implementations meet rigorous safety standards. We maintain unwavering 
-                    <strong>quality assurance</strong> throughout the project lifecycle, from initial design through 
-                    final execution. Our commitment to precision and excellence drives us to deliver solutions that are 
-                    not only technically sound but also efficient, sustainable, and aligned with industry best practices.
+                    At AERODYNE ENGINEERING SERVICE, we follow a <strong>client-centric approach</strong> that prioritizes 
+                    understanding your unique needs and challenges. Our methodology combines <strong>technical excellence</strong> 
+                    with <strong>innovative thinking</strong> to deliver solutions that are not only effective but also sustainable 
+                    and cost-efficient. We believe in <strong>transparent communication</strong>, <strong>collaborative partnerships</strong>, 
+                    and <strong>continuous improvement</strong> to ensure the success of every project we undertake.
                 </p>
             </div>
         </div>
     </section>
 
-    <!-- Who We Work With Section -->
-    <section class="clients-section">
+    <!-- Clients Section -->
+    <section class="clients-section" id="clients">
         <div class="container">
-            <h2 class="section-title">Who We Work With</h2>
+            <h2 class="section-title">Our Clients</h2>
             <div class="clients-grid">
                 <div class="client-card">
-                    <i class="fas fa-hard-hat"></i>
-                    <h4>Construction Firms</h4>
-                    <p>Supporting construction projects with engineering expertise</p>
-                </div>
-                <div class="client-card">
                     <i class="fas fa-industry"></i>
-                    <h4>Manufacturing Industries</h4>
-                    <p>Providing mechanical engineering solutions for manufacturing</p>
+                    <h4>Industrial Sector</h4>
+                    <p>Providing engineering solutions for manufacturing and industrial facilities.</p>
                 </div>
                 <div class="client-card">
-                    <i class="fas fa-road"></i>
-                    <h4>Infrastructure Developers</h4>
-                    <p>Engineering support for large-scale infrastructure projects</p>
+                    <i class="fas fa-city"></i>
+                    <h4>Urban Development</h4>
+                    <p>Supporting infrastructure and urban planning projects across regions.</p>
                 </div>
                 <div class="client-card">
-                    <i class="fas fa-user-tie"></i>
-                    <h4>Engineering Professionals</h4>
-                    <p>Collaborating with fellow engineers and consultants</p>
+                    <i class="fas fa-building"></i>
+                    <h4>Construction Companies</h4>
+                    <p>Partnering with construction firms for design and project management.</p>
+                </div>
+                <div class="client-card">
+                    <i class="fas fa-handshake"></i>
+                    <h4>Government Projects</h4>
+                    <p>Contributing to public infrastructure and government initiatives.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Why Choose Us Section -->
-    <section class="why-choose-section">
+    <section class="why-choose-section" id="why-choose">
         <div class="container">
             <h2 class="section-title">Why Choose Us</h2>
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <h4>Experienced Engineers</h4>
-                    <p>Our team brings years of industry experience and technical expertise to every project</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-microchip"></i>
-                    </div>
-                    <h4>Technically Driven Solutions</h4>
-                    <p>We leverage cutting-edge technology and engineering principles to deliver optimal solutions</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
                         <i class="fas fa-award"></i>
                     </div>
-                    <h4>Commitment to Quality</h4>
-                    <p>Uncompromising quality standards ensure reliable and durable engineering solutions</p>
+                    <h4>Proven Excellence</h4>
+                    <p>Years of experience and a track record of successful projects across various industries.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h4>Expert Team</h4>
+                    <p>Highly qualified engineers and professionals with diverse expertise and certifications.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h4>Innovation</h4>
+                    <p>Leveraging cutting-edge technology and innovative approaches to solve complex challenges.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-clock"></i>
                     </div>
-                    <h4>Timely Project Delivery</h4>
-                    <p>We understand the importance of deadlines and deliver projects on time, every time</p>
+                    <h4>Timely Delivery</h4>
+                    <p>Commitment to meeting deadlines and delivering projects on schedule without compromising quality.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Commitment Section -->
-    <section class="commitment-section">
+    <section class="commitment-section" id="commitment">
         <div class="container">
             <h2 class="section-title">Our Commitment</h2>
             <div class="commitment-content">
@@ -260,17 +264,17 @@
                     <div class="commitment-item">
                         <i class="fas fa-leaf"></i>
                         <h4>Sustainability</h4>
-                        <p>We are committed to sustainable engineering practices that minimize environmental impact and promote long-term resource efficiency.</p>
+                        <p>Committed to environmentally responsible engineering practices and sustainable solutions.</p>
                     </div>
                     <div class="commitment-item">
-                        <i class="fas fa-certificate"></i>
-                        <h4>Standards</h4>
-                        <p>All our work adheres to national and international engineering standards, ensuring compliance and reliability.</p>
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Quality Assurance</h4>
+                        <p>Rigorous quality control processes ensuring the highest standards in every project.</p>
                     </div>
                     <div class="commitment-item">
-                        <i class="fas fa-chart-line"></i>
-                        <h4>Efficiency</h4>
-                        <p>We optimize designs and processes to maximize efficiency, reduce costs, and enhance project value.</p>
+                        <i class="fas fa-heart"></i>
+                        <h4>Client Satisfaction</h4>
+                        <p>Dedicated to exceeding client expectations and building long-term partnerships.</p>
                     </div>
                 </div>
             </div>
@@ -282,51 +286,38 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <div class="footer-logo">
-                        <img src="static/Aerodyn-Logo.png" alt="Aerodyne Engineering Service Logo" class="footer-logo-img">
-                    </div>
-                    <p class="footer-tagline">Engineering Precision. Elevating Possibilities.</p>
+                    <img src="static/Aerodyn-Logo.png" alt="AERODYNE Logo" class="footer-logo-img">
+                    <p class="footer-tagline">Excellence in Engineering Solutions</p>
                 </div>
                 <div class="footer-section">
-                    <h4 class="footer-title">Contact</h4>
+                    <h3 class="footer-title">Quick Links</h3>
                     <p class="footer-text">
-                        Aerodyne Engineering Services<br>
-                        C Lounge Business Centre<br>
-                        Second Floor, Avenue Road,<br>
-                        Panampilly Nagar, Ernakulam<br>
-                        Kerala, India 682036
-                    </p>
-                    <p class="footer-text" style="margin-top: 15px;">
-                        <a href="https://www.aerodyneengineeringservices.com" target="_blank" rel="noopener noreferrer" class="footer-link">
-                            www.aerodyneengineeringservices.com
-                        </a>
-                    </p>
-                    <p class="footer-text" style="margin-top: 10px;">
-                        <a href="mailto:infoaerodyneservices@gmail.com" class="footer-link">
-                            infoaerodyneservices@gmail.com
-                        </a>
+                        <a href="#about" class="footer-link">About Us</a><br>
+                        <a href="#services" class="footer-link">Services</a><br>
+                        <a href="#domains" class="footer-link">Domains</a><br>
+                        <a href="#clients" class="footer-link">Clients</a>
                     </p>
                 </div>
                 <div class="footer-section">
-                    <h4 class="footer-title">Connect With Us</h4>
+                    <h3 class="footer-title">Contact Us</h3>
+                    <p class="footer-text">
+                        Email: info@aerodynengineering.com<br>
+                        Phone: +91 94460 69532<br>
+                        Address: Engineering Excellence Center
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Follow Us</h3>
                     <div class="social-links">
-                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-link">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="https://www.instagram.com/aerodyne_engineering_services/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-link">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="https://x.com/services23302" target="_blank" rel="noopener noreferrer" aria-label="Twitter" class="social-link">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/aerodyne-engineering-services-3516b33a2" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Aerodyne Engineering Service. All rights reserved.</p>
+                <p>&copy; 2024 AERODYNE ENGINEERING SERVICE. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -334,4 +325,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
